@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "keepbal": {
+      "url": "https://keepbal.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:KEEPBAL_API_KEY}"
+      }
+    }
+  }
+}

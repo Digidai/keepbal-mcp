@@ -1,0 +1,3 @@
+[mcp_servers.keepbal]
+url = "https://keepbal.com/mcp"
+bearer_token_env_var = "KEEPBAL_API_KEY"

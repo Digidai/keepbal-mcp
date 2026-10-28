@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "keepbal": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://keepbal.com/mcp",
+        "--transport",
+        "http-only",
+        "--header",
+        "Authorization:${KEEPBAL_AUTH}"
+      ],
+      "env": {
+        "KEEPBAL_AUTH": "Bearer $KEEPBAL_API_KEY"
+      }
+    }
+  }
+}
